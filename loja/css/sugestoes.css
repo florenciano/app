@@ -1,0 +1,48 @@
+
+#principal {
+    margin-top: 25px;
+    width: 100%;
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.sugestoes {
+    margin-top: 2em;
+    text-align: center;
+}
+.sugestoes li {
+    margin-bottom: 7px;
+}
+
+input {
+    display: inline-block;
+    font-size: 1em;
+}
+
+.nova-sugestao {
+    text-align: center;
+    margin-top: 2em;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Add novos elementos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.novaSugestao {
+    cursor: pointer; }
+.novaSugestao span {
+    cursor: default;
+}
+.novaSugestao:after {
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    content: "x";
+    font-size: 65%;
+    margin-left: 1em;
+    padding: 2px 4px; }
