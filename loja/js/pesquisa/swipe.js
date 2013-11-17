@@ -19,7 +19,7 @@
 	var som = new Audio( "audio/swipe.wav" );
 
 	// add noss evento de "swipeleft": da direita p/ esquerda
-	// 	-- EVENTO NAO TA ROLANDO ---
+	// 	--- EVENTO NAO TA ROLANDO ---
 	$( "#carrinho li" ).on( "swipeleft", function(event) {
 
 		var li = $(this);
