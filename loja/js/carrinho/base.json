@@ -1,0 +1,24 @@
+nomeDaSuaFuncao({
+
+    "produtos": [{
+        "nome": "Urban Mistery",
+        "preco": 130.0,
+        "descricao": "Descubra você também este mistério.",
+        "imagem": "img/produto-5.jpg"
+    },
+
+    {
+        "nome": "Golden Valve",
+        "preco": 109.0,
+        "descricao": "Feito com o mais finos dos materiais especialmente para você",
+        "imagem": "img/produto-6.jpg"
+    },
+
+    {
+        "nome": "Messy Rocket",
+        "preco": 200.0,
+        "descricao": "Não é necessária nenhuma explicação. É demais!",
+        "imagem": "img/produto-4.jpg"
+    }]
+
+})
