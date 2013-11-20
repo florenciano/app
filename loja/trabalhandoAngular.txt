@@ -1,0 +1,13 @@
+Para trabalhar com Angular.js
+
+1- 	cria-se as pastas: view [html]; model [js];
+2- 	importa o script do angular.js;
+3- 	add o atributo ng-app [diretivas] na área do html que queremos gerenciar;
+4- 	importa o seu script para realizar as funções necessárias e assim podemos
+	inserir os {{ }} [data binding] na view. Este conjunto de ações cria o que
+	chamamos de [client-side templante];
+5-	para fornecer os dados e dar respostas as nossas ações usamos o controller
+	[ng-controller] na seção que irá ocorrer os dados dinâmicos;
+6-	Criar uma função para ser o nosso controller. Obs: func com o mesmo nome;
+	Dentro de uma pasta também com o mesmo nome. Por questões de convenção.
+7-	Pronto! Agora basta fazer o script para testar o funcionamento
